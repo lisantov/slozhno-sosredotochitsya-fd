@@ -1,3 +1,15 @@
+:root {
+  --page-bg: #000028;
+  --page-image: url(../images/cover-image-dark.png);
+  --header-title-color: #DB00FF;
+  --page-padding: 10px;
+  --accent-color: #FF0070;
+  --header-description-color: #000028;
+  --theme-switch-color: #FF0070;
+  --theme-switch-hover: #FF007066;
+  --section-title-color: #FF0070;
+  --text-color: #F1B2CE;
+}
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства

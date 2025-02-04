@@ -19,6 +19,7 @@
   align-items: center;
   justify-items: end;
   inline-size: 100%;
+  block-size: 100vh;
   padding: var(--page-padding);
   min-block-size: 668px;
 }

@@ -1,6 +1,7 @@
 :root.theme-light {
   --page-bg: #FFF1F7;
   --page-image: url(../images/cover-image-light.png);
+  --border-color: #353430;
   --header-title-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --header-description-color: #353430;
@@ -10,10 +11,15 @@
   --text-color: #353430;
 }
 
+.theme-light .header__record {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --page-bg: #FFF1F7;
     --page-image: url(../images/cover-image-light.png);
+    --border-color: #353430;
     --header-title-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --header-description-color: #353430;
@@ -26,24 +32,8 @@
   .theme-auto .header__record {
     display: none;
   }
-
-  .theme-auto .decorated-zone::before {
-    display: none;
-  }
   
-  .theme-auto .decorated-zone::after {
-    display: none;
-  }
-
   .theme-light .header__record {
-    display: none;
-  }
-
-  .theme-light .decorated-zone::before {
-    display: none;
-  }
-  
-  .theme-light .decorated-zone::after {
     display: none;
   }
 }

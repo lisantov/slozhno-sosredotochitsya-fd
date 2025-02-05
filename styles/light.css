@@ -28,12 +28,13 @@
     --section-title-color: #353430;
     --text-color: #353430;
   }
+  
+  .theme-light .header__record {
+    display: none;
+  }
 
   .theme-auto .header__record {
     display: none;
   }
   
-  .theme-light .header__record {
-    display: none;
-  }
 }
